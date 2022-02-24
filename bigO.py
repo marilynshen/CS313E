@@ -12,13 +12,14 @@
 
 #  Date Created: 2/22/2022
 
-#  Date Last Modified: 2/22/2022
+#  Date Last Modified: 2/24/2022
 
 # Problem 1: Use python to create 3 different plots
-import math
 import numpy as np
 import matplotlib.pyplot as plt
 
+
+# first plot, going from x = 0 to x = 5
 msize = 5
 
 t = np.arange(0, msize, 0.1)
@@ -34,6 +35,7 @@ plt.rcParams["figure.figsize"] = (7, 7)
 plt.show()
 
 
+# second plot, going from x = 0 to x = 15
 msize = 15
 
 t = np.arange(0, msize, 0.1)
@@ -46,6 +48,7 @@ plt.rcParams["figure.figsize"] = (7, 7)
 plt.show()
 
 
+# third plot, going from x = 0 to x = 50
 msize = 50
 
 t = np.arange(0, msize, 0.1)
